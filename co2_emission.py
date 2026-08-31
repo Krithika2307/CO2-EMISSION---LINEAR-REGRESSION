@@ -9,9 +9,6 @@ from sklearn.linear_model import LinearRegression
 from sklearn.metrics import r2_score, mean_absolute_error, mean_squared_error
 import os
 
-# =============================================
-# CHANGE THIS PATH TO YOUR CSV FILE LOCATION
-# =============================================
 DATA_PATH = r'D:\ML\CO2 emission\data\CO2 Emissions.csv'
 
 # Create plots folder
@@ -80,5 +77,4 @@ plt.grid(True, alpha=0.3)
 plt.savefig('plots/task1_residuals.png', dpi=300, bbox_inches='tight')
 plt.close()
 print("✅ Saved: plots/task1_residuals.png")
-
-print("\n🎉 Task 1 COMPLETE! All graphs in 'plots/' folder.")                       
+                  
